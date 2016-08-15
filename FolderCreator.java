@@ -34,12 +34,7 @@ public class FolderCreator {
     }
     public static void main(String[] args) {
         //Параметры и детали ФТП-сервера / FTP Server parameters and credentials
-        /*String server = "ftp.adstream.com";
-        int port = 21;
-        String user = "sony";
-        String pass = "1qa2ws3ed";
-        String dirCurrentDate = args[0];
-        String dirFileId = args[1];*/
+        //Пример параметров / Parameters example : "ftp.example.com",21,"user","Password","CurrentDate","DirName"
         String server = args[0];
         String port = args[1];
         String user = args[2];
